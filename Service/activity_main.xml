@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Service Demo"
+        android:layout_marginTop="40sp"
+        android:layout_marginBottom="20sp"
+        android:textSize="50sp"
+        android:gravity="center_horizontal"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Service"
+        android:id="@+id/btnStartService"
+        android:layout_marginBottom="20sp"
+        android:textSize="30sp"
+        android:layout_marginTop="30sp"/>
+    <Button
+        android:layout_marginBottom="20sp"
+        android:layout_width="match_parent"
+        android:id="@+id/btnStopService"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="Stop Service"
+        android:layout_marginTop="30sp"/>
+
+</LinearLayout>

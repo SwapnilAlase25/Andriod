@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Main"
+        android:layout_marginTop="40sp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30sp"
+        android:layout_marginBottom="20sp"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Student Name"
+        android:textSize="30sp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginBottom="10sp"
+        android:layout_marginRight="10sp"
+        android:id="@+id/editName"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="20sp"
+        android:id="@+id/NameEditText"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Student Roll No"
+        android:textSize="30sp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginBottom="10sp"
+        android:layout_marginRight="10sp"
+        android:id="@+id/editRollNo"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="20sp"
+        android:id="@+id/wordEditText"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33"
+            android:hint="C"
+            android:textSize="30sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:id="@+id/editCmarks"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33"
+            android:hint="C++"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:textSize="30sp"
+            android:id="@+id/editCplussplusmarks"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33"
+            android:hint="Java"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:layout_marginBottom="20sp"
+            android:textSize="30sp"
+            android:id="@+id/editJavamarks"/>
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10sp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginBottom="10sp"
+        android:text=" Submit "
+        android:textAllCaps="false"
+        android:textSize="30sp"
+        android:background="@drawable/mybutton"
+        android:id="@+id/btSubmit"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="Results"
+        android:layout_marginLeft="10sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginBottom="10sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Marks: "
+        android:id="@+id/tvTotalMarks"
+        android:textSize="30sp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginBottom="10sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Percentage: "
+        android:layout_marginLeft="10sp"
+        android:id="@+id/tvPercentage"
+        android:textSize="30sp"
+        android:layout_marginBottom="10sp"/>
+
+
+
+</LinearLayout>

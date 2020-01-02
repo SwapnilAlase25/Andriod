@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Content Provider"
+        android:textSize="40sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="20sp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textToFile"
+        android:textColor="@color/colorPrimary"
+        android:text="Video count: "
+        android:layout_marginLeft="20sp"
+        android:textSize="30sp"
+        android:layout_marginTop="20sp"/>
+
+    <ListView
+        android:id="@+id/ListToFile"
+        android:layout_width="match_parent"
+        android:layout_height="249dp"
+        android:visibility="visible" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textToFile1"
+        android:textColor="@color/colorPrimary"
+        android:text="Audio count: "
+        android:layout_marginLeft="20sp"
+        android:textSize="30sp"
+        android:layout_marginTop="20sp"/>
+
+    <ListView
+        android:id="@+id/Audio1"
+        android:layout_width="match_parent"
+        android:layout_height="249dp"
+        android:visibility="visible" />
+
+
+
+</LinearLayout>
+
+
+

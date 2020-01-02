@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:textSize="30sp"
+        android:textColor="@color/colorAccent"/>
+
+    <TextView
+        android:id="@+id/textShowStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20sp"
+        android:text="@string/status"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bton"
+        android:textAllCaps="false"
+        android:textSize="30sp"
+        android:id="@+id/btnBtOn"
+        android:textColor="@color/colorPrimary"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bluetooth Discovery"
+        android:textSize="30sp"
+        android:textAllCaps="false"
+        android:id="@+id/btnBtDisc"
+        android:textColor="@color/colorPrimary"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Capture Image"
+        android:textSize="30sp"
+        android:textAllCaps="false"
+        android:id="@+id/btnCapImg"
+        android:textColor="@color/colorPrimary"/>
+
+    <ImageView
+        android:id="@+id/ShowImg"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/avc123" />
+
+</LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="MainActivity"
+       android:textSize="40sp"
+       android:textColor="@color/colorPrimary"
+       android:layout_marginBottom="40sp"
+       android:gravity="center_horizontal">
+
+   </TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter name"
+        android:id="@+id/editName"
+        android:textSize="30sp"/>
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter age"
+        android:id="@+id/editAge"
+        android:textSize="30sp"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:id="@+id/BtnToFirst"
+        android:textAllCaps="false"
+        android:textSize="30sp"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center_horizontal">
+
+    </Button>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="FeedBack"
+        android:id="@+id/ShowFeedBack"/>
+
+</LinearLayout>

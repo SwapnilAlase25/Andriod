@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".first">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="First"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginTop="40sp"
+        android:gravity="center_horizontal"
+        android:textSize="30sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name: "
+        android:layout_marginLeft="10sp"
+        android:layout_marginBottom="10sp"
+        android:textSize="30sp"
+        android:id="@+id/tvName"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Roll: "
+        android:layout_marginLeft="10sp"
+        android:layout_marginBottom="10sp"
+        android:textSize="30sp"
+        android:id="@+id/tvRoll"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="C: "
+        android:layout_marginLeft="10sp"
+        android:layout_marginBottom="10sp"
+        android:textSize="30sp"
+        android:id="@+id/tvC"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="C++: "
+        android:layout_marginLeft="10sp"
+        android:layout_marginBottom="10sp"
+        android:textSize="30sp"
+        android:id="@+id/tvCpp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Java: "
+        android:layout_marginLeft="10sp"
+        android:layout_marginBottom="10sp"
+        android:textSize="30sp"
+        android:id="@+id/tvJava"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total: "
+        android:layout_marginLeft="10sp"
+        android:layout_marginBottom="10sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
+        android:id="@+id/tvTotal"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Percentage: "
+        android:layout_marginLeft="10sp"
+        android:layout_marginBottom="10sp"
+        android:textSize="30sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/tvPer"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnToBack"
+        android:text="Back"
+        android:textSize="30sp"
+        />
+</LinearLayout>
